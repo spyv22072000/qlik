@@ -1,0 +1,6 @@
+DATA COLLECTION & EXTRACTION FROM DATABASE
+The data used for this analysis has been downloaded from Kaggle's https://www.kaggle.com/datasets/husainsb/lendingclub-issued-loans. The dataset contains detailed information on loans issued by LendingClub, including borrower demographics, loan characteristics, and loan performance metrics. Understanding this data is crucial for conducting a thorough analysis to achieve the business objectives outlined above.
+Prepare the Data for Visualization using Qlik Software
+To effectively analyze and visualize the data using Qlik software, the following steps will be undertaken:
+Data Cleaning: Based on the analysis of the dataset, it has been observed that the ‘id’ field, which serves as the primary key, contains distinct values for each entry. Specifically, there are 759338 unique ‘id’ values, matching the total count of values in this field. This implies that there is no duplication within the ‘id’ field. Consequently, data cleaning procedures to remove duplicate ‘id’ values are not required for this dataset. This observation contributes to the data integrity and uniqueness of each record, ensuring reliable and accurate analyses in subsequent stages.
+
